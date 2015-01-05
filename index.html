@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Hipster4j | An Open Source Java Library for Heuristic Search</title>
+      <meta name="description" content="Hipster (also known as hipster4j) is an easy to use yet powerful and flexible type-safe library for heuristic search, written in pure Java. Define search problems or graph and solve it using Dijkstra, A*, Bellman-Ford or any other algorithm included in the library.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Language" content="en">
+
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/custom/style.min.css">
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+      <script src="assets/js/custom/modernizr/modernizr-custom.js"></script>
+
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+      your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+<!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" rel="home" href="/" title="Hipster">
+                <img style="max-width:170px; margin-top: -7px;" src="assets/css/custom/img/hipster-logo-text.png">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <!-- navigation menus -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://hipster4j.gitbooks.io/hipster4j/content/">Documentation</a></li>
+              <li><a href="hipster-javadocs">Javadoc</a></li>
+              
+                  
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                  
+              
+                  
+              
+            </ul>
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</div>
+
+
+    
+<div class="jumbotron">
+    <div class="container">
+        <img class="main-hipster-logo" src="assets/css/custom/img/hipster-logo-text-white.png"/>
+        <p>An Open Source Java Library for Heuristic Search</p>
+        <p><a id="download-release" class="btn btn-primary btn-lg" role="button">Download <span class="version"></span> &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2><i class="fa fa-rocket"></i> Powerful</h2>
+
+            <p>Hipster is an easy to use yet powerful and flexible type-safe library for heuristic search, written in
+                pure Java. It relies on a flexible model with generic operators to define search problems.</p>
+
+            <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#powerful-example-modal">View details &raquo;</a></p>
+            <!-- Bootstrap Modal Popup -->
+<div class="modal fade" id="powerful-example-modal" tabindex="-1" role="dialog" aria-labelledby="powerful-example-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="powerful-example-modal">Define problems declaratively</h4>
+            </div>
+            <div class="modal-body">
+              
+
+              
+
+              
+
+              
+
+              
+                <p>Hipster allows you to define problems in a declarative manner.
+Here is an example that shows how to define a search problem and its components:</p>
+
+<script src="https://gist.github.com/4f8c44fc235f1047a7fa.js"></script>
+              
+
+
+            </div>
+            <div class="modal-footer">
+                
+                
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-refresh"></i> Iterative</h2>
+
+            <p>All the algorithms are iterators. Just iterate over an algorithm to obtain the next expanded state.
+                You can control the search process or change the behaviour of an algorithm according to your needs.</p>
+
+            <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#iterative-example-modal">View details &raquo;</a></p>
+          <!-- Bootstrap Modal Popup -->
+<div class="modal fade" id="iterative-example-modal" tabindex="-1" role="dialog" aria-labelledby="iterative-example-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="iterative-example-modal">Iterative algorithms</h4>
+            </div>
+            <div class="modal-body">
+              
+
+              
+
+              
+
+              
+
+              
+                <p>Algorithms are all implemented in an iterative fashion. You can control the behaviour
+of each algorithm or change it according to your needs:</p>
+
+<script src="https://gist.github.com/11402595.js"></script>
+              
+
+
+            </div>
+            <div class="modal-footer">
+                
+                
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-github"></i> Open Source</h2>
+
+            <p>Hipster comes with a permissive Apache 2.0 license that allows you to use the library in a wide variety
+                of commercial and non-commercial projects. All the source code of this library is also hosted on GitHub.
+            </p>
+
+            <p><a class="btn btn-default" href="https://github.com/citiususc/hipster" role="button">GitHub project &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Quick Example</h1>
+    </div>
+    <p>Let's se how to search the shortest path in a directed graph using Dijkstra. Although Hipster is graph-agnostic, we have included
+        some nice classes and builders to create directed and undirected graphs to start playing with the library. You can also use other
+        library graphs such as JUNG, JGraphT or Blueprints/TinkerPop API.</p>
+    <div id="quick-example" class="row">
+        <div class="col-md-5">
+            <img class="img-responsive" src="assets/css/custom/img/graph-example-hipster-blue.png"/>
+        </div>
+        <div class="col-md-7">
+            <script src="https://gist.github.com/pablormier/3fa802e722d169e63dc6.js"></script>
+        </div>
+    </div>
+
+    <div class="bs-callout bs-callout-primary">
+        <h4>Output example</h4>
+        <code>Total number of iterations: 7. States: [A, B, C, E, D, F], Actions: [2.0, 1.0, 3.0, 2.0, 2.0], Search information: WeightedNode{state=F, cost=10.0, estimation=0.0, score=10.0}</code>
+    </div>
+
+</div>
+
+<div class="container-fluid background-pattern video-tutorial">
+    <div class="container">
+        <h1>Video tutorial</h1>
+        <p>
+            Learn how fast you can code and solve in a concise way the <a href="http://www.d.umn.edu/~jrichar4/8puz.html">8-Puzzle problem</a> with
+            Hipster with this three minute video tutorial. Full source code of this example can be found in the <a href="https://github.com/citiususc/hipster/tree/development/hipster-examples/src/main/java/es/usc/citius/hipster/examples">examples module</a>.</p>
+
+        <div class="embed-responsive embed-responsive-16by9 embed-video-thumbnail">
+            <img id="img-video-thumbnail" class="embed-responsive-item" src="assets/css/custom/img/intellij-hipster.png" />
+            <span class="play-video-button"><img src="assets/css/custom/img/play-video-b.png" /> </span>
+            <iframe id="video-tutorial-frame" class="embed-responsive-item embed-frame" src="http://www.youtube.com/embed/rQBz_xLkvww?wmode=opaque&autoplay=0" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="container">
+        <a class="footer-brand" href="http://citius.usc.es" title="CiTIUS">
+            <img class="citius-logo" src="assets/css/custom/img/citius-logo.png"/>
+        </a>
+        <p class="footer-text">&copy; 2014 Hipster - Centro de Investigación en Tecnoloxías da Información (CiTIUS)</p>
+        <a class="footer-brand right jprofiler-logo" href="http://www.ej-technologies.com/products/jprofiler/overview.html" title="Software profiled thanks to JProfiler Java Profiler" alt="This software is optimized thanks to JProfiler"></a>
+    </div>
+</footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    
+    
+    
+      <script src="assets/js/custom/helpers.min.js"></script>
+    
+
+    <!-- Google Analytics -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-54364281-1');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+
+  </body>
+</html>
